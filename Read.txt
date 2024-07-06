@@ -1,0 +1,31 @@
+
+##sayHello.jsp
+    //"say-hello" - when somebody hits this url we want to print "Hello World Whata r you doing"
+    //http://localhost8080/say-hello
+
+//we are going to make views here it is one of the earliest and popular technology to make views is JSP(Java server pager)
+    //"say-hello-jsp" => sayHello.jsp
+
+    //typically all jsp deifned in folder /src/main/resources/META-INF/resources/WEB-INF/jsp/
+    //sayHello.jsp
+
+    /say-hello-jsp => handles by SayHelloController - returning sayHelloJsp method => and prfix and suffix will be added to sayHello and it become
+    /...path/sayHello.jsp
+
+
+##Login.jsp as excersize
+
+##
+localhost:8080/login
+B1:Identifies correct controller method
+/login => LoginContriller.gotoLoginPage
+
+B2:Executes controller method
+=>Puts data into model
+=> Returns view name => login
+
+B3:Identifies the correct view
+/WEB-INF/js[/login.jsp
+
+B4:Executes View
+

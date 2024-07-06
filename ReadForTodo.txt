@@ -1,0 +1,19 @@
+#Todo
+id
+username
+description
+targetDate
+done
+
+##
+TodoController
+listTodo.jsp
+
+## Request Vs Model Vs Session
+//By default it is RequestScope which is only for per session but SessionScope store details accross multiple scope
+
+
+
+docker connection command ->
+docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3000:3000 mysql:8-oracle
+
